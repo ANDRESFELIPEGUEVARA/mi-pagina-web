@@ -252,3 +252,110 @@ main{
     font-weight: 600;
 
 }
+.container__proyect{
+    padding: 100px 0px;
+    margin-top: 100px;
+    
+}
+
+.container__card-proyect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card__proyect {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #fff;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.card__proyect h2, .card__proyect p {
+    margin: 0;
+}
+
+.card__proyect:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
+.container__form{
+    background-color: rgb(204, 204, 204);
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+    display: flex;
+    background-color: var(--color_primary);
+}
+.container__form h1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+form{
+    padding: 20px;
+    width: 260px;
+    background-color: var(--color_primary);
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 2px solid var(--color_cuaternario);
+    border-radius: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: red;
+}
+.image__form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.image__form img{
+    width: 400px;
+    margin-left: 150px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
+.map {
+    height: 800px;
+}
+.container__fotter{
+    width: 100%;
+    color: #fff;
+    background-color: #0a141d;
+}
+.derechos{
+    margin-left: 600px;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.texto_principal{
+    padding-right: 150px;
+}
+.texto_secundario{
+    width: 250px;
+}

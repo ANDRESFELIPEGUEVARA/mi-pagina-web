@@ -253,8 +253,8 @@ main{
 
 }
 .container__proyect{
-    padding: 100px 0px;
-    margin-top: 100px;
+    padding: 100px 0px; 
+    margin-top: 50px;
     
 }
 
@@ -271,7 +271,7 @@ main{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
-    color: blue;
+    color: gold;
     text-align: left;
     background-size: cover;
     background-position: center;
@@ -358,4 +358,35 @@ input[type="submit"]:hover {
 }
 .texto_secundario{
     width: 250px;
+}
+.container_personal{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.personal {
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.text_personal{
+    padding-right: 150px;
+    width: 100%;
+}
+.text_cover h2{
+    font-size: 40px;
+    color: black;
+    display: flex;
+}
+.text_cover p{
+    font-size: 22px;
+}
+.image_personal{
+    width: 100%;
+}
+.image_personal img{
+    width: 500px;
+    height: 460px;
+    margin-left: 15px;
 }

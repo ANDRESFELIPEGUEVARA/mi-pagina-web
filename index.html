@@ -7,6 +7,7 @@
     <title>YULOCOPI</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/00a92ea83f.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
     <header>
@@ -21,7 +22,7 @@
                         <li><a href="#About">About</a></li>
                         <li><a href="#servicio">Servicio</a></li>
                         <li><a href="#planes">Plans</a></li>
-                        <li><a href="#mapa">Map</a></li>
+                        <li><a href="#Comprar">Comprar</a></li>
                     </ul>
                 </nav>
                 <a href="#" class="boton_1">Inicio</a>
@@ -133,90 +134,68 @@
                 </div>
             </div>
         </div>
-        <div class="container__proyect div__offset" id="planes">
-            <div class="service card__primary">
-                <div class="text__service text__card-primary" >
-                    <p>NUESTROS PROYECTOS</p>
-                    <h1>Esperamos crecer y contuniar innovando a futuro</h1>
-                </div>
-                <div class="container__card-proyect container_box-cardPrimary">
-					<div class="card__proyect box_card-primary" style="background-image: url('img/Servicios/medio\ virtual.jpg');">
-						<h2> Web</h2>
-						<p>Nuestra web te permitira encontrar multiples opciones para encontrara tus modelos perfectos</p>
-					</div>
-					<div class="card__proyect box_card-primary" style="background-image: url('img/plans/ubi.jpg');">
-						<h2>Ubicacion</h2>
-						<p>Nuestros planes y metas estaran guiadas a establecernos en una zona centrica</p>
-					</div>
-					<div class="card__proyect box_card-primary" style="background-image: url('img/plans/hogar.png');">
-						<h2>LLegar a muchos hogares</h2>
-						<p>Estandarizar los diversos precios para la accesibilidad de todos</p>
-					</div>
-				</div>
-            </div>
-        </div>
-        <div class="container_personal">
-            <div class="personal">
-                <div class="text_personal">
-                    <h2>Nuestro excelente equipo de trabajo</h2>
-                    <p>Siempre un buen negocio tiene su buen equipo de trabajo nosotros no somos la excepcion</p>
-                </div>
-                <div class="image_personal">
-                    <img src="img/about/personas trabajndo 2.jpg" alt="No se encontro la imagen">   
-                </div>
+        <div class="compras" id="Comprar">
+            <div class="text_compras">
+                <h2>Si quieres comprar dirijete a nuestra pagina web dando clic en el siguinte boton</h2>
+                <a href="app/ventas/index.html" class="boton_4">Ir a comprar</a>
             </div>
         </div>
         <div class="container__form" style="    background-color: rgb(204, 204, 204);">
             <section>
-            <h1> Formulario</h1>
-            <form action="#" method="POST">
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" rows="14" placeholder="Andres Felipe Guevara" required><br><br>
-                
-                <label for="correo">Correo Electrónico:</label><br>
-                <input type="email" id="correo" name="correo" rows="14" placeholder="123@gmail.com" required><br><br>
-                <label for="pais">pais:</label>
-                <select id="pais" name="pais">
-                    <option value="">esojer</option>
-                    <option value="arg">Argentina</option>
-                    <option value="bra">brasil</option>
-                    <option value="col">colombia</option>
-                </select><br></br>
-                
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="14" placeholder="aca describe el mensaje que nos quieres dejar"  required></textarea><br><br>
-                
-                <input type="submit" value="Enviar">
-            </form>
+                <h1 style="margin-left: 600px;"> Buzón de sugerencias</h1>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="Nombre" rows="12" placeholder="Normbre" required><br><br>
+                    
+                    <label for="correo">Correo Electrónico:</label><br>
+                    <input type="email" id="correo" name="Correo" rows="12" placeholder="ejemplo@gmail.com" required><br><br>
+        
+                    <label for="pais">Pais:</label>
+                    <select id="pais" name="pais">
+        
+                        <option value="Esp">España</option>
+                        <option value="arg">Argentina</option>
+                        <option value="bra">brasil</option>
+                        <option value="col">colombia</option>
+                        <option value="ecu">Ecuador</option>
+                        <option value="Por">portugal</option>
+                    </select><br></br>
+                    
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="8" cols="20" required></textarea><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
             </section>
             <section class="image__form">
             <img src="img/cover/imagen cover.jpg" alt="no se encontro">
             </section>
         </div>
-        <div class="map" id="mapa">
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31589.447544749914!2d-73.39205082568357!3d8.234803300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e677b0b76a1a81f%3A0x87794ddeb6c226b4!2sCentro%20Oca%C3%B1a!5e0!3m2!1ses!2sco!4v1728412805834!5m2!1ses!2sco"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            style="border: 0;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0">
-            </iframe>
-        </div>
-        <footer>
-            <div class="container__fotter">
-                <div class="contenido">
-                    <div class="texto_principal">
-                        <h1>¿Te gusto?</h1>
-                    </div>
-                    <div class="texto_secundario">
-                        <p>Si te gusto te recomiendo dejarnos tu mensaje y estar pendiente de mas actualizaciones !BYE</p>
-                    </div>
+        <footer class="footer" id="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Calidad siempre garantizada con nosotros
+                    </p>
                 </div>
-                <div class="derechos">
-                    <small>&copy;2024 -Todos los derechos reservados</small>
+                <div class="footer-section links">
+                    <h3>Enlaces Importantes</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#servicio">Servicios</a></li>
+                        <li><a href="#planes">Proyectos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contáctanos</h3>
+                    <p>Teléfono: +57 3184071426</p>
+                    <p>Email: andresfelipeguevaracontreras@gmail.com</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100007628462327"  target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
             </div>
         </footer>
